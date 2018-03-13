@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">Title</th>
+    <th scope="col">Date</th>
+    <th scope="col">Address</th>
+    <th scope="col">Options</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let event of events">
+    <td [routerLink]="['/events', event.id]">{{event.title}}</td>
+    <td>{{event.date| date}}</td>
+    <td>{{event.address}}</td>
+    <td><button class="btn btn-light" (click)="deleteEvent(event.id)">Delete</button></td>
+  </tr>
+  </tbody>
+</table>

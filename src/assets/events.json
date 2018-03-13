@@ -1,0 +1,19 @@
+{
+  "events": {
+    "0": {
+      "title": "Web Expert Exam",
+      "date": "March 15, 2018",
+      "address": "Elfde-Liniestraat 24, 3500 Hasselt"
+    },
+    "1": {
+      "title": "Java Expert Exam",
+      "date": "March 8, 2018",
+      "address": "Elfde-Liniestraat 24, 3500 Hasselt"
+    },
+    "2": {
+      "title": "Rock Werchter",
+      "date": "July 5, 2018",
+      "address": "Blarenberglaan 3A, Stephenson Plaza"
+    }
+  }
+}
